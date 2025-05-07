@@ -1,12 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     margin: 20px;
     background: #f0f4f8;
     color: #333;
     text-align: center;
 }
 #apod-container {
-    background: white;
+    background: blue;
     padding: 20px;
     border-radius: 10px;
     max-width: 800px;
@@ -16,7 +16,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: auto;
 }
 iframe {
     border: none;
