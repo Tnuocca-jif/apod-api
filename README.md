@@ -8,6 +8,7 @@ This web app displays NASA's Astronomy Picture of the Day using the NASA APOD AP
 2. Open `index.html` in your browser.
 3. When prompted, paste your NASA API key.
 4. Enjoy the latest astronomy photo or video with details.
+5. Thank you for visitng my page! 
 
 ## API Key Security
 
@@ -21,8 +22,9 @@ This web app displays NASA's Astronomy Picture of the Day using the NASA APOD AP
 
 1. Go to [https://api.nasa.gov](https://api.nasa.gov)
 2. Click “Get Started” to request a free key.
-3. Copy your API key.
-4. Paste it into the prompt when you launch the app.
+3. NASA will email you the API Key
+4. Copy your API key.
+5. Paste it into the prompt when you launch the app.
 
 ## Technologies Used
 

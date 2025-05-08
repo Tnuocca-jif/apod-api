@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>NASA APOD Viewer</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>NASA APOD Viewer</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    a {
+      color: bisque;
+      font-size: 14px;
+    }
+  </style>
 </head>
-<a href="https://apod.nasa.gov/apod/apYYMMDD.html" target="_blank">View on NASA</a>
 
-<body>
-    <h1>NASA Astronomy Picture of the Day</h1>
-    <div id="apod-container">
-        <h2 id="title"></h2>
-        <p id="date"></p>
-        <div id="media"></div>
-        <p id="explanation"></p>
-        <p><strong>Created By: YDiamond at Georgetown</strong> <span id="tags"></span></p>
-    </div>
-    <script src="apod.js"></script>
-</body>
-    <h2>API Practice Page for Internet Business Technologies Final</h2>
+<body style="color: aquamarine;">
+  <!-- Link to NASA APOD -->
+  <p>
+    <a href="https://apod.nasa.gov/apod/apYYMMDD.html" target="_blank">
+      View on NASA
+    </a>
+  </p>
 
+  <div id="apod-container">
+    <h2 id="title"></h2>
+    <p id="date"></p>
+    <div id="media"></div>
+    <p id="explanation"></p>
+    <p><strong>Created By: YDiamond at Georgetown</strong></p>
+    <p><span id="tags"></span></p>
+  </div>
+
+  <!-- Archive Link -->
+  <p>
+    <a href="https://apod.nasa.gov/apod/archivepix.html" target="_blank">
+      View Astronomy Picture of the Day Archive
+    </a>
+  </p>
+
+  <!-- Footer Headings -->
+  <h3>API Practice Page for Internet Business Technologies Final</h3>
+
+  <!-- JavaScript -->
+  <script src="apod.js"></script>
 </body>
 </html>

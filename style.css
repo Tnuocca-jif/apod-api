@@ -1,23 +1,46 @@
 body {
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 20px;
-    background: #f0f4f8;
     color: #333;
     text-align: center;
+    background-image: url('hubble.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
+
+/* Corrected media query syntax */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #apod-container {
+        padding: 10px;
+    }
+
+    input[type="date"], button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
 #apod-container {
-    background: blue;
+    background: rgba(0, 0, 255, 0.6); /
     padding: 20px;
     border-radius: 10px;
     max-width: 800px;
     margin: 0 auto;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
-img {
+
+img 
     max-width: 100%;
     height: auto;
-    border-radius: auto;
-}
+    border-radius: 8px;
+
 iframe {
     border: none;
     border-radius: 8px;
